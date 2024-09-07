@@ -1,0 +1,193 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+a:not(nav a):visited {
+  color: gold;
+}
+
+nav {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: floralwhite;
+}
+
+h2 {
+  color: #333;
+}
+
+/* main */
+.news-item {
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  margin-top: 2rem;
+}
+
+/* FAQ */
+.faq-item {
+  margin-bottom: 1rem;
+}
+
+.faq-item h3 {
+  margin: 0;
+  cursor: pointer;
+  color: #333;
+}
+
+.faq-item p {
+  display: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* blog */
+.post {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.post p {
+  margin: 0.5rem 0;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.read-more:hover {
+  background: #555;
+}
+
+/* contact */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem;
+}
+
+input[type="submit"]:hover {
+  background: #555;
+}
+
+/* post */
+.post h1 {
+  margin-top: 0;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.post-content p {
+  margin: 0.5rem 0;
+}
+
+.post-content ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.post-content li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-link:hover {
+  background: #555;
+}

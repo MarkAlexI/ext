@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контактна Форма | ext.pp.ua</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Сайт підтримки веб-розширень від <a href="https://mark-digital.space">Mark Digital</a></h1>
+  </header>
+  <nav>
+    <a href="index.html">Головна</a>
+    <a href="get-joke-extension.html">Get Joke Extension</a>
+    <a href="blocksite.html">Block Site Extension</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Контактна Форма</a>
+  </nav>
+  <div class="container">
+    <section class="section contact-info">
+      <h2>Контактна Інформація</h2>
+      <p>Для замовлення розробки кастомного веб-розширення для вирішення ваших задач зверніться до <a href="https://mark-digital.space" target="_blank">Mark Digital</a> або через контактну форму.</p>
+      <p>Якщо у вас є питання або проблеми, будь ласка, зверніться до нас через наведену нижче контактну форму.</p>
+    </section>
+    <section class="section">
+      <h2>Контактна Форма</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Електронна пошта:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Телефон:</label>
+        <input type="phone" id="phone" name="phone">
+
+        <label for="message">Повідомлення:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <input type="submit" value="Відправити">
+      </form>
+    </section>
+  </div>
+</body>
+
+</html>

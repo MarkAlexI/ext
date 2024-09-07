@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block Site Extension | ext.pp.ua</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const faqItems = document.querySelectorAll('.faq-item h3');
+      faqItems.forEach(item => {
+        item.addEventListener('click', () => {
+          const answer = item.nextElementSibling;
+          answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Сайт підтримки веб-розширень від <a href="https://mark-digital.space">Mark Digital</a></h1>
+  </header>
+  <nav>
+    <a href="index.html">Головна</a>
+    <a href="get-joke-extension.html">Get Joke Extension</a>
+    <a href="Block Site Extension.html">Block Site Extension</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Контактна Форма</a>
+  </nav>
+  <div class="container">
+    <section class="section">
+      <h2>Block Site Extension</h2>
+      <p>Block Site Extension - це розширення для браузера, яке дозволяє блокувати небажані сайти, допомагаючи вам зосередитися на важливих завданнях. Ось вся інформація про це розширення.</p>
+    </section>
+    <section class="section">
+      <h2>Інструкції по Встановленню</h2>
+      <p>Щоб встановити Block Site Extension, виконайте ці кроки:</p>
+      <ol>
+        <li>Перейдіть до <a href="https://chromewebstore.google.com/detail/kfhgdgokgjmdboidlhphajinmgpcmmec" target="_blank">Chrome Web Store</a> або <a href="https://addons.mozilla.org/uk/firefox/addon/blockersite/" target="_blank">Firefox Add-ons</a>.</li>
+        <li>Натисніть кнопку "Додати до браузера".</li>
+        <li>Дотримуйтесь інструкцій для завершення установки.</li>
+        <li>Перезапустіть браузер, якщо це необхідно.</li>
+      </ol>
+    </section>
+    <section class="section">
+      <h2>Часті Питання</h2>
+      <div class="faq-item">
+        <h3>Як налаштувати список заблокованих сайтів?</h3>
+        <p>Щоб заблокувати ресурс, введіть частину його імені в лівому полі введення без вказівки протоколу. Наприклад, введення «youtube» заблокує всі субдомени цього ресурсу. У правому полі введення введіть URL-адресу для переспрямування, повністю визначену протоколом, наприклад, "https://google.com". Потім натисніть кнопку зберегти. Якщо URL-адресу перенаправлення залишити порожньою, цільовий сайт буде просто заблоковано.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Чи можу я розблокувати сайти, якщо змінив свою думку?</h3>
+        <p>Так, ви можете розблокувати сайти через меню розширення. Щоб змінити правило, видаліть старе правило та додайте нове.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Чи є можливість імпортувати/експортувати список заблокованих сайтів?</h3>
+        <p>На даний момент розширення не підтримує імпорт та експорт списків заблокованих сайтів. Ми працюємо над цією функцією для майбутніх версій.</p>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
