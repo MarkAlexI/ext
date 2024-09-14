@@ -13,6 +13,10 @@ header {
   text-align: center;
 }
 
+a {
+  color: #5359A0;
+}
+
 a:not(nav a):visited {
   color: gold;
 }

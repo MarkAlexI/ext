@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galactic Focus Theme | ext.pp.ua</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const faqItems = document.querySelectorAll('.faq-item h3');
+      faqItems.forEach(item => {
+        item.addEventListener('click', () => {
+          const answer = item.nextElementSibling;
+          answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Сайт підтримки веб-розширень від <a href="https://mark-digital.space">Mark Digital</a></h1>
+  </header>
+  <nav>
+    <a href="index.html">Головна</a>
+    <a href="get-joke-extension.html">Get Joke Extension</a>
+    <a href="blocksite.html">Block Site Extension</a>
+    <a href="galactic-focus.html">Galactic Focus</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Контактна Форма</a>
+    <a href="blog.html">Блог</a>
+  </nav>
+  <div class="container">
+    <section class="section">
+      <h2>Galactic Focus Theme</h2>
+      <p>Galactic Focus — це тема для браузерів Mozilla Firefox та Google Chrome, яка занурює вас у глибокий космос і створює атмосферу для зосередженої роботи. Темний синій колір допомагає підтримувати спокій і сприяє концентрації.</p>
+    </section>
+    <section class="section">
+      <h2>Інструкції по Встановленню</h2>
+      <p>Щоб встановити тему Galactic Focus, виконайте ці кроки:</p>
+      <ol>
+        <li>Перейдіть до <!--<a href="https://chrome.google.com/webstore" target="_blank">Chrome Web Store</a> або --><a href="https://addons.mozilla.org/uk/firefox/addon/" target="_blank">Firefox Add-ons</a>.</li>
+        <li>Знайдіть тему "Galactic Focus".</li>
+        <li>Натисніть кнопку "Додати до браузера".</li>
+        <li>Дотримуйтесь інструкцій для завершення установки.</li>
+        <li>Перезапустіть браузер, якщо це необхідно.</li>
+      </ol>
+    </section>
+    <section class="section">
+      <h2>Часті Питання</h2>
+      <div class="faq-item">
+        <h3>Чи можу я змінити кольори теми?</h3>
+        <p>Наразі кольори теми не підлягають зміні. Вона розроблена, щоб створювати спокійну та зосереджену атмосферу.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Чи працює ця тема у всіх версіях Firefox?</h3>
+        <p>Тема сумісна з останніми версіями браузерів Firefox. Якщо у вас виникнуть проблеми, перевірте, чи оновлено ваш браузер.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Чи плануються оновлення для цієї теми?</h3>
+        <p>Так, ми плануємо додавати нові елементи дизайну та підтримувати актуальність теми для майбутніх версій браузерів.</p>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
