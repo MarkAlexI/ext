@@ -14,16 +14,21 @@ header {
 }
 
 a {
-  color: #5359A0;
+  color: #606c88;
+}
+
+a:not(nav a):hover {
+  color: #b39ddb;
 }
 
 a:not(nav a):visited {
-  color: gold;
+  color: #4a148c;
 }
 
 nav {
   margin: 1rem 0;
   text-align: center;
+  max-width: 980px;
 }
 
 nav a {
@@ -45,6 +50,10 @@ nav a:hover {
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('/images/back.jpg');
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .section {
