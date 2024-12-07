@@ -26,7 +26,7 @@ a:not(nav a):visited {
 }
 
 nav {
-  margin: 1rem 0;
+  margin: 1rem auto;
   text-align: center;
   max-width: 980px;
 }
