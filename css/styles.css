@@ -22,7 +22,7 @@ a:not(nav a):hover {
 }
 
 a:not(nav a):visited {
-  color: #4a148c;
+  color: teal;
 }
 
 nav {
