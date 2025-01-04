@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Insight Extension | ext.pp.ua</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const faqItems = document.querySelectorAll('.faq-item h3');
+      faqItems.forEach(item => {
+        item.addEventListener('click', () => {
+          const answer = item.nextElementSibling;
+          answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Сайт підтримки веб-розширень від <a href="https://mark-digital.space">Mark Digital</a></h1>
+  </header>
+  <nav>
+    <a href="index.html">Головна</a>
+    <a href="get-joke-extension.html">Get Joke Extension</a>
+    <a href="blocksite.html">Block Site Extension</a>
+    <a href="hide-highlight.html">Hide & Highlight</a>
+    <a href="css-insight.html">CSS Insight</a>
+    <a href="galactic-focus.html">Galactic Focus</a>
+    <a href="light-beyond-the-horizon.html">Light Beyond the Horizon</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Контактна Форма</a>
+    <a href="blog.html">Блог</a>
+  </nav>
+  <div class="container">
+    <section class="section">
+      <img src="./images/css-insight-fav.png" alt="CSS Insight Extension Icon">
+      <h2>CSS Insight Extension</h2>
+      <p>CSS Insight - це зручний інструмент для веб-розробників, який спрощує роботу з CSS. Розширення дозволяє миттєво отримувати детальну інформацію про стилі елементів на сторінці: задекларовані стилі, обчислені стилі, медіаправила та анімації.</p>
+      <p>Завдяки інтуїтивному інтерфейсу ви можете легко переглядати й змінювати стилі без потреби відкривати консоль браузера. Розширення також дозволяє копіювати CSS-правила одним кліком та аналізувати складні стилі в окремому вікні.</p>
+    </section>
+    <section class="section">
+      <h2>Інструкції по Встановленню</h2>
+      <p>Щоб встановити CSS Insight, виконайте ці кроки:</p>
+      <ol>
+        <li>Перейдіть до <a href="https://chromewebstore.google.com/detail/keejoflofbcbepjbbhnmiomgmjjihmnb" target="_blank">Chrome Web Store</a> або <a href="https://addons.mozilla.org/firefox/addon/css-insight" target="_blank">Firefox Add-ons</a>.</li>
+        <li>Натисніть кнопку "Додати до браузера".</li>
+        <li>Дотримуйтесь інструкцій для завершення установки.</li>
+        <li>Перезапустіть браузер, якщо це необхідно.</li>
+      </ol>
+    </section>
+    <section class="section">
+      <h2>Часті Питання</h2>
+      <div class="faq-item">
+        <h3>Які стилі я можу переглядати за допомогою розширення?</h3>
+        <p>Ви можете переглядати задекларовані стилі, обчислені стилі, медіаправила, keyframe-анімації та інші деталі для будь-якого елемента на сторінці.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Чи можу я змінювати стилі прямо на сторінці?</h3>
+        <p>Так, розширення дозволяє змінювати стилі елементів у реальному часі прямо на сторінці без використання консолі.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Чи підтримується копіювання CSS-правил?</h3>
+        <p>Так, ви можете копіювати CSS-правила будь-якого елемента одним кліком.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Чи є версія для інших браузерів?</h3>
+        <p>На даний момент розширення доступне для Chrome та Firefox. Інші браузери можуть бути додані у майбутньому.</p>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
